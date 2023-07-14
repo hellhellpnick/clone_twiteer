@@ -4,7 +4,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.1.2",
@@ -19,6 +20,7 @@
     "bcrypt": "^5.0.1",
     "cloudinary": "^1.30.0",
     "formidable": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "human-time": "^0.0.2",
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^3.1.2",
